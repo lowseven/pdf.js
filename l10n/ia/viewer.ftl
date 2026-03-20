@@ -201,6 +201,19 @@ pdfjs-thumb-page-title =
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
     .aria-label = Vignette del pagina { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = Seliger pagina { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = Seliger pagina { $page }
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = Pagina { $page } de { $total }
 
 ## Find panel button title and messages
 
@@ -645,9 +658,12 @@ pdfjs-toggle-views-manager-button =
     .title = Monstrar/celar le barra lateral
 pdfjs-toggle-views-manager-notification-button =
     .title = Monstrar/celar le barra lateral (le documento contine miniaturas/structura/attachamentos/stratos)
+pdfjs-toggle-views-manager-button1-label = Gerer paginas
 pdfjs-toggle-views-manager-button-label = Monstrar/celar le barra lateral
 pdfjs-views-manager-sidebar =
     .aria-label = Barra lateral
+pdfjs-views-manager-sidebar-resizer =
+    .aria-label = Saltar al declaration
 pdfjs-views-manager-view-selector-button =
     .title = Vistas
 pdfjs-views-manager-view-selector-button-label = Vistas
@@ -703,10 +719,19 @@ pdfjs-views-manager-status-warning-copy-label = Impossibile copiar. Refresca le 
 pdfjs-views-manager-status-warning-delete-label = Impossibile deler. Refresca le pagina e retenta.
 pdfjs-views-manager-status-warning-save-label = Impossibile salvar. Refresca le pagina e retenta.
 pdfjs-views-manager-status-undo-button-label = Disfacer
+pdfjs-views-manager-status-done-button-label = Facite
 pdfjs-views-manager-status-close-button =
     .title = Clauder
 pdfjs-views-manager-status-close-button-label = Clauder
 pdfjs-views-manager-paste-button-label = Collar
+pdfjs-views-manager-paste-button-before =
+    .title = Collar ante le prime pagina
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = Colla post pagina { $page }
+pdfjs-toggle-views-manager-button1 =
+    .title = Gerer paginas
 
 ## Main menu for adding/removing signatures
 

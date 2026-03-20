@@ -201,6 +201,19 @@ pdfjs-thumb-page-title =
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
     .aria-label = Kuatiarogue mba’emirĩ { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = Eiporavo kuatiarogue { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = Eiporavo kuatiarogue { $page }
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = Kuatiarogue { $page } { $total } mba’e
 
 ## Find panel button title and messages
 
@@ -644,6 +657,7 @@ pdfjs-toggle-views-manager-button =
     .title = Emoambue tenda yke
 pdfjs-toggle-views-manager-notification-button =
     .title = Embojopyru tenda ykegua (kuatia oguereko mba’e’i, kuaakaha/moirũha/ñuãha)
+pdfjs-toggle-views-manager-button1-label = Eñangareko kuotiarogue
 pdfjs-toggle-views-manager-button-label = Emoambue tenda yke
 pdfjs-views-manager-sidebar =
     .aria-label = Ta’ãngarupa yke
@@ -704,10 +718,19 @@ pdfjs-views-manager-status-warning-copy-label = Ndaikatúi oñembokuatia. Embopy
 pdfjs-views-manager-status-warning-delete-label = Ndaikatúi embogue. Embopyahu kuatiarogue ha eha’ã jey.
 pdfjs-views-manager-status-warning-save-label = Ndaikatúi eñongatu. Embopyahu kuatiarogue ha eha’ã jey.
 pdfjs-views-manager-status-undo-button-label = Mboguevi
+pdfjs-views-manager-status-done-button-label = Oĩma
 pdfjs-views-manager-status-close-button =
     .title = Mboty
 pdfjs-views-manager-status-close-button-label = Mboty
 pdfjs-views-manager-paste-button-label = Mboja
+pdfjs-views-manager-paste-button-before =
+    .title = Emboja togue peteĩha mboyve
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = Emboja kuatiarogue { $page } rire
+pdfjs-toggle-views-manager-button1 =
+    .title = Eñangareko kuotiarogue
 
 ## Main menu for adding/removing signatures
 

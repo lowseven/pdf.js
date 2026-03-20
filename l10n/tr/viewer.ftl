@@ -201,6 +201,19 @@ pdfjs-thumb-page-title =
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
     .aria-label = { $page }. sayfanın küçük hâli
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = { $page }. sayfayı seç
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = { $page }. sayfayı seç
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = Sayfa { $page }/{ $total }
 
 ## Find panel button title and messages
 
@@ -645,9 +658,12 @@ pdfjs-toggle-views-manager-button =
     .title = Kenar çubuğunu aç/kapat
 pdfjs-toggle-views-manager-notification-button =
     .title = Kenar çubuğunu aç/kapat (Belge, küçük resimler/ana hat/ekler/katmanlar içeriyor)
+pdfjs-toggle-views-manager-button1-label = Sayfaları yönet
 pdfjs-toggle-views-manager-button-label = Kenar çubuğunu aç/kapat
 pdfjs-views-manager-sidebar =
     .aria-label = Kenar çubuğu
+pdfjs-views-manager-sidebar-resizer =
+    .aria-label = Kenar çubuğu boyutlandırıcı
 pdfjs-views-manager-view-selector-button =
     .title = Görünümler
 pdfjs-views-manager-view-selector-button-label = Görünümler
@@ -703,9 +719,19 @@ pdfjs-views-manager-status-warning-copy-label = Kopyalanamadı. Sayfayı tazeley
 pdfjs-views-manager-status-warning-delete-label = Silinemedi. Sayfayı tazeleyip yeniden deneyin.
 pdfjs-views-manager-status-warning-save-label = Kaydedilemedi. Sayfayı tazeleyip yeniden deneyin.
 pdfjs-views-manager-status-undo-button-label = Geri al
+pdfjs-views-manager-status-done-button-label = Tamam
 pdfjs-views-manager-status-close-button =
     .title = Kapat
 pdfjs-views-manager-status-close-button-label = Kapat
+pdfjs-views-manager-paste-button-label = Yapıştır
+pdfjs-views-manager-paste-button-before =
+    .title = İlk sayfadan önce yapıştır
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = { $page }. sayfadan sonra yapıştır
+pdfjs-toggle-views-manager-button1 =
+    .title = Sayfaları yönet
 
 ## Main menu for adding/removing signatures
 

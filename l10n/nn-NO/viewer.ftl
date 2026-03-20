@@ -201,6 +201,19 @@ pdfjs-thumb-page-title =
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
     .aria-label = Miniatyrbilde av side { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = Vel side { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = Vel side { $page }
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = Side { $page } av { $total }
 
 ## Find panel button title and messages
 
@@ -645,9 +658,12 @@ pdfjs-toggle-views-manager-button =
     .title = Vis/skjul sidestolpe
 pdfjs-toggle-views-manager-notification-button =
     .title = Vis/skjul sidestolpe (dokumentet inneheld miniatyrbilde/disposisjon/vedlegg/lag)
+pdfjs-toggle-views-manager-button1-label = Handsam sider
 pdfjs-toggle-views-manager-button-label = Vis/skjul sidestolpe
 pdfjs-views-manager-sidebar =
     .aria-label = Sidestolpe
+pdfjs-views-manager-sidebar-resizer =
+    .aria-label = Endre storleiken på sidestolpen
 pdfjs-views-manager-view-selector-button =
     .title = Vis
 pdfjs-views-manager-view-selector-button-label = Visningar
@@ -703,10 +719,19 @@ pdfjs-views-manager-status-warning-copy-label = Klarte ikkje å kopiere. Oppdate
 pdfjs-views-manager-status-warning-delete-label = Klarte ikkje å slette. Oppdater sida og prøv på nytt.
 pdfjs-views-manager-status-warning-save-label = Klarte ikkje å lagre. Oppdater sida og prøv på nytt.
 pdfjs-views-manager-status-undo-button-label = Angre
+pdfjs-views-manager-status-done-button-label = Ferdig
 pdfjs-views-manager-status-close-button =
     .title = Lat att
 pdfjs-views-manager-status-close-button-label = Lat att
 pdfjs-views-manager-paste-button-label = Lim inn
+pdfjs-views-manager-paste-button-before =
+    .title = Lim inn før første side
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = Lim inn etter side { $page }
+pdfjs-toggle-views-manager-button1 =
+    .title = Handsam sider
 
 ## Main menu for adding/removing signatures
 

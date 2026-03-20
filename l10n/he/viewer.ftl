@@ -203,8 +203,17 @@ pdfjs-thumb-page-canvas =
     .aria-label = תצוגה מקדימה של עמוד { $page }
 # Variables:
 #   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = בחירת עמוד { $page }
+# Variables:
+#   $page (Number) - the page number
 pdfjs-thumb-page-checkbox =
     .aria-label = בחירת עמוד { $page }
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = עמוד { $page } מתוך { $total }
 
 ## Find panel button title and messages
 
@@ -649,6 +658,7 @@ pdfjs-toggle-views-manager-button =
     .title = החלפת תצוגת סרגל צד
 pdfjs-toggle-views-manager-notification-button =
     .title = החלפת תצוגת סרגל צד (מסמך שמכיל תמונות ממוזערות/תוכן עניינים/קבצים מצורפים/שכבות)
+pdfjs-toggle-views-manager-button1-label = ניהול עמודים
 pdfjs-toggle-views-manager-button-label = החלפת תצוגת סרגל צד
 pdfjs-views-manager-sidebar =
     .aria-label = סרגל צד
@@ -709,10 +719,19 @@ pdfjs-views-manager-status-warning-copy-label = לא ניתן היה להעתי�
 pdfjs-views-manager-status-warning-delete-label = לא ניתן היה למחוק. נא לרענן את הדף ולנסות שוב.
 pdfjs-views-manager-status-warning-save-label = לא ניתן היה לשמור. נא לרענן את הדף ולנסות שוב.
 pdfjs-views-manager-status-undo-button-label = ביטול פעולה
+pdfjs-views-manager-status-done-button-label = סיום
 pdfjs-views-manager-status-close-button =
     .title = סגירה
 pdfjs-views-manager-status-close-button-label = סגירה
 pdfjs-views-manager-paste-button-label = הדבקה
+pdfjs-views-manager-paste-button-before =
+    .title = להדביק לפני העמוד הראשון
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = להדביק אחרי עמוד { $page }
+pdfjs-toggle-views-manager-button1 =
+    .title = ניהול עמודים
 
 ## Main menu for adding/removing signatures
 

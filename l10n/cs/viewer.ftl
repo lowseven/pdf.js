@@ -201,6 +201,19 @@ pdfjs-thumb-page-title =
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
     .aria-label = Náhled strany { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = Vybrat stranu { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = Vybrat stranu { $page }
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = Strana { $page } z { $total }
 
 ## Find panel button title and messages
 
@@ -653,9 +666,12 @@ pdfjs-toggle-views-manager-button =
     .title = Přepnout postranní lištu
 pdfjs-toggle-views-manager-notification-button =
     .title = Přepnout postranní lištu (dokument obsahuje náhledy/osnovu/přílohy/vrstvy)
+pdfjs-toggle-views-manager-button1-label = Spravovat strany
 pdfjs-toggle-views-manager-button-label = Přepnout postranní lištu
 pdfjs-views-manager-sidebar =
     .aria-label = Postranní lišta
+pdfjs-views-manager-sidebar-resizer =
+    .aria-label = Změna velikosti v postranní liště
 pdfjs-views-manager-view-selector-button =
     .title = Zobrazení
 pdfjs-views-manager-view-selector-button-label = Zobrazení
@@ -719,9 +735,19 @@ pdfjs-views-manager-status-warning-copy-label = Kopírování se nezdařilo. Obn
 pdfjs-views-manager-status-warning-delete-label = Smazání se nezdařilo. Obnovte stránku a zkuste to znovu.
 pdfjs-views-manager-status-warning-save-label = Nepodařilo se uložit. Obnovte stránku a zkuste to znovu.
 pdfjs-views-manager-status-undo-button-label = Zpět
+pdfjs-views-manager-status-done-button-label = Hotovo
 pdfjs-views-manager-status-close-button =
     .title = Zavřít
 pdfjs-views-manager-status-close-button-label = Zavřít
+pdfjs-views-manager-paste-button-label = Vložit
+pdfjs-views-manager-paste-button-before =
+    .title = Vloží před první stránku
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = Vložit za stránku { $page }
+pdfjs-toggle-views-manager-button1 =
+    .title = Spravovat strany
 
 ## Main menu for adding/removing signatures
 

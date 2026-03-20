@@ -201,6 +201,19 @@ pdfjs-thumb-page-title =
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
     .aria-label = გვერდის შეთვალიერება { $page }
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = მონიშნეთ { $page } გვერდი
+# Variables:
+#   $page (Number) - the page number
+pdfjs-thumb-page-checkbox =
+    .aria-label = მონიშნეთ { $page } გვერდი
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = გვერდი { $page }, სულ { $total }
 
 ## Find panel button title and messages
 
@@ -645,9 +658,12 @@ pdfjs-toggle-views-manager-button =
     .title = გვერდითა ზოლის გამოჩენა/დამალვა
 pdfjs-toggle-views-manager-notification-button =
     .title = გვერდითი ზოლის გამოჩენა (შეიცავს შესათვალიერებელს/სარჩევს/დანართს)
+pdfjs-toggle-views-manager-button1-label = გვერდების მართვა
 pdfjs-toggle-views-manager-button-label = გვერდითა ზოლის გამოჩენა/დამალვა
 pdfjs-views-manager-sidebar =
     .aria-label = გვერდითი ზოლი
+pdfjs-views-manager-sidebar-resizer =
+    .aria-label = გვერდითი ზოლის ზომაცვლა
 pdfjs-views-manager-view-selector-button =
     .title = ხედები
 pdfjs-views-manager-view-selector-button-label = ხედები
@@ -703,9 +719,19 @@ pdfjs-views-manager-status-warning-copy-label = ასლი ვერ აიღ
 pdfjs-views-manager-status-warning-delete-label = ვერ წაიშალა. განაახლეთ გვერდი და კვლავ სცადეთ.
 pdfjs-views-manager-status-warning-save-label = ვერ შეინახა. განაახლეთ გვერდი და კვლავ სცადეთ.
 pdfjs-views-manager-status-undo-button-label = დაბრუნება
+pdfjs-views-manager-status-done-button-label = მზადაა
 pdfjs-views-manager-status-close-button =
     .title = დახურვა
 pdfjs-views-manager-status-close-button-label = დახურვა
+pdfjs-views-manager-paste-button-label = ჩასმა
+pdfjs-views-manager-paste-button-before =
+    .title = ჩასმა პირველი გვერდის წინ
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = ჩასმა { $page } გვერდის შემდეგ
+pdfjs-toggle-views-manager-button1 =
+    .title = გვერდების მართვა
 
 ## Main menu for adding/removing signatures
 

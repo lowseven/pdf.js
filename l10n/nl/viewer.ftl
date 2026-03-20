@@ -203,8 +203,17 @@ pdfjs-thumb-page-canvas =
     .aria-label = Miniatuur van pagina { $page }
 # Variables:
 #   $page (Number) - the page number
+pdfjs-thumb-page-checkbox1 =
+    .title = Pagina { $page } selecteren
+# Variables:
+#   $page (Number) - the page number
 pdfjs-thumb-page-checkbox =
     .aria-label = Pagina { $page } selecteren
+# Variables:
+#   $page (Number) - the page number
+#   $total (Number) - the number of pages
+pdfjs-thumb-page-title1 =
+    .title = Pagina { $page } van { $total }
 
 ## Find panel button title and messages
 
@@ -649,6 +658,7 @@ pdfjs-toggle-views-manager-button =
     .title = Zijbalk in-/uitschakelen
 pdfjs-toggle-views-manager-notification-button =
     .title = Zijbalk in-/uitschakelen (document bevat miniaturen/overzicht/bijlagen/lagen)
+pdfjs-toggle-views-manager-button1-label = Pagina’s beheren
 pdfjs-toggle-views-manager-button-label = Zijbalk in-/uitschakelen
 pdfjs-views-manager-sidebar =
     .aria-label = Zijbalk
@@ -709,10 +719,19 @@ pdfjs-views-manager-status-warning-copy-label = Kan niet kopiëren. Vernieuw de 
 pdfjs-views-manager-status-warning-delete-label = Kan niet verwijderen. Vernieuw de pagina en probeer het opnieuw.
 pdfjs-views-manager-status-warning-save-label = Kan niet opslaan. Vernieuw de pagina en probeer het opnieuw.
 pdfjs-views-manager-status-undo-button-label = Ongedaan maken
+pdfjs-views-manager-status-done-button-label = Gereed
 pdfjs-views-manager-status-close-button =
     .title = Sluiten
 pdfjs-views-manager-status-close-button-label = Sluiten
 pdfjs-views-manager-paste-button-label = Plakken
+pdfjs-views-manager-paste-button-before =
+    .title = Plakken voor de eerste pagina
+# Variables:
+#   $page (Number) - the page number after which the paste button is.
+pdfjs-views-manager-paste-button-after =
+    .title = Plakken na pagina { $page }
+pdfjs-toggle-views-manager-button1 =
+    .title = Pagina’s beheren
 
 ## Main menu for adding/removing signatures
 
